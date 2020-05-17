@@ -321,26 +321,23 @@
 .swiper-button-prev{
   left: -40px;
 }
-
-// .swiper-buttons{
-//   position: absolute;
-//   width: 72px;
-//   height: 72px;
-//   border-radius: 50%;
-//   background-color: #fff;
-//   cursor: pointer;
-//   outline: none;
-// }
-// .swiper-button:before{
-//   position: absolute;
-//   top: 50%;
-//   left: 70%;
-//   transform: translate(-50%, -50%);
-//   font-family: 'icomoon';
-//   font-size: 27px;
-// }
-
 //end slider
+
+//start clients
+.clients{
+  padding: 173px 0;
+  text-align: center;
+  &__title{
+    margin-bottom: 180px;
+  }
+}
+.clients__items{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+//end clients
 
 
 
