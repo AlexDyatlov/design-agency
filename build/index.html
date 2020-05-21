@@ -4,20 +4,398 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Document</title>
   </head>
 
 <body>
-  <header>
-
+  <header class="header" style="background-image: url(img/header-bg.jpg);">
+  <div class="container">
+    <div class="header__top-inner">
+      <div class="header__logo">
+        <a href="#">
+          design agency
+        </a>
+      </div>
+      <nav class="menu">
+        <div class="menu__btn">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul class="menu__list">
+          <li>
+            <a href="#">
+              Решения
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Блог
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              О нас
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="request-btn">
+        <a class="header__btn" href="#">
+          Сделать запрос
+        </a>
+      </div>
+    </div>
+    <div class="header__info">
+      <div class="header__title">
+        Брендинг и UX/UI дизайн агентство
+      </div>
+      <div class="header__text">
+        Мы предлагаем самые современные решения, которые делают вас заметными!
+      </div>
+    </div>
+  </div>
 </header>
   <!-- WRITE CODE HERE -->
+  <section class="features">
+    <div class="container">
+      <div class="features__title title">
+        Наши особенности
+      </div>
+      <div class="features__items">
+        <div class="features__item">
+          <div class="features__item-img">
+            <img src="img/content/expert.png" alt="">
+          </div>
+          <div class="features__item-text">
+            Эксперты по бизнес-доменам
+          </div>
+        </div>
+        <div class="features__item">
+          <div class="features__item-img">
+            <img src="img/content/effective.png" alt="">
+          </div>
+          <div class="features__item-text">
+            Наиболее эффективно с точки зрения затрат
+          </div>
+        </div>
+        <div class="features__item">
+          <div class="features__item-img">
+            <img src="img/content/customer.png" alt="">
+          </div>
+          <div class="features__item-text">
+            Отвечаем техническим требованиям заказчика
+          </div>
+        </div>
+        <div class="features__item">
+          <div class="features__item-img">
+            <img src="img/content/stack.png" alt="">
+          </div>
+          <div class="features__item-text">
+            Обновленный набор технологий
+          </div>
+        </div>
+      </div>
+      <div class="features-btn">
+        <a class="header__btn" href="#">
+          Сделать запрос
+        </a>
+        <a class="more__btn" href="#">
+          Узнать больше
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="info" id="counts">
+    <div class="container">
+      <div class="info__inner">
+        <div class="info__box">
+          <div class="info__box-content">
+            <div class="info__box-number">
+              250
+            </div>
+            <span class="info__box-projects">+</span>
+          </div>
+          <div class="info__box-title">
+            Проектов
+          </div>
+        </div>
+        <div class="info__box">
+          <div class="info__box-content">
+            <div class="info__box-number">
+              35000
+            </div>
+            <span class="info__box-hours">+</span>
+          </div>
+          <div class="info__box-title">
+            Часов
+          </div>
+        </div>
+        <div class="info__box">
+          <div class="info__box-content awards">
+            <div class="info__box-number">
+              90
+            </div>
+            <span class="info__box-awards">+</span>
+          </div>
+          <div class="info__box-title">
+            Наград
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="work-slider">
+    <div class="container">
+      <div class="work__title title">
+        Наши работы
+      </div>
+      <div class="swiper-buttons">
+        <button class="swiper-button-prev"></button>
+        <button class="swiper-button-next"></button>
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="work__item">
+              <div class="work__item-img" style="background-image: url(img/content/design.jpg);">
+                <a class="img-btn" href="#">
+                  Просмотреть
+                </a>
+              </div>
+              <div class="work__item-content">
+                <a class="work__item-category" href="#">
+                  Веб-дизайн
+                </a>
+                <a class="work__item-title" href="#">
+                  Мария Ферреро, Портфолио
+                </a>
+                <a class="work__item-text" href="#">
+                  Узнать больше
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="work__item">
+              <div class="work__item-img" style="background-image: url(img/content/design.jpg);">
+                <a class="img-btn" href="#">
+                  Просмотреть
+                </a>
+              </div>
+              <div class="work__item-content">
+                <a class="work__item-category" href="#">
+                  Веб-дизайн
+                </a>
+                <a class="work__item-title" href="#">
+                  Мария Ферреро, Портфолио
+                </a>
+                <a class="work__item-text" href="#">
+                  Узнать больше
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="work__item">
+              <div class="work__item-img" style="background-image: url(img/content/design.jpg);">
+                <a class="img-btn" href="#">
+                  Просмотреть
+                </a>
+              </div>
+              <div class="work__item-content">
+                <a class="work__item-category" href="#">
+                  Веб-дизайн
+                </a>
+                <a class="work__item-title" href="#">
+                  Мария Ферреро, Портфолио
+                </a>
+                <a class="work__item-text" href="#">
+                  Узнать больше
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="work__item">
+              <div class="work__item-img" style="background-image: url(img/content/ux-design.jpg);">
+                <a class="img-btn" href="#">
+                  Google Play
+                </a>
+              </div>
+              <div class="work__item-content">
+                <a class="work__item-category" href="#">
+                  UI/UX, Разработка
+                </a>
+                <a class="work__item-title" href="#">
+                  Моб. приложение Zikan
+                </a>
+                <a class="work__item-text" href="#">
+                  Узнать больше
+                </a>
+              </div>
+              <div class="icon-green"></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="work__item">
+              <div class="work__item-img" style="background-image: url(img/content/mobile.jpg);">
+                <a class="img-btn" href="#">
+                  Google Play
+                </a>
+              </div>
+              <div class="work__item-content">
+                <a class="work__item-category" href="#">
+                  UI/UX, Разработка
+                </a>
+                <a class="work__item-title" href="#">
+                  Моб. приложение Quzica
+                </a>
+                <a class="work__item-text" href="#">
+                  Узнать больше
+                </a>
+              </div>
+              <div class="icon-green"></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <section class="clients">
+    <div class="container">
+      <div class="clients__title title">
+        Наши ценные клиенты
+      </div>
+      <div class="clients__items">
+        <div class="clients__items-img">
+          <img src="img/content/upside.png" alt="">
+        </div>
+        <div class="clients__items-img">
+          <img src="img/content/arrow.png" alt="">
+        </div>
+        <div class="clients__items-img">
+          <img src="img/content/trimore.png" alt="">
+        </div>
+        <div class="clients__items-img">
+          <img src="img/content/affregato.png" alt="">
+        </div>
+        <div class="clients__items-img">
+          <img src="img/content/oneshot.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+ <section class="newsletter">
+    <div class="container">
+      <div class="newsletter__inner">
+        <div class="newsletter__inner-title">
+          Хотите получать еженедельную рассылку на свой почтовый ящик?
+        </div>
+        <div class="newsletter__inner-form">
+          <form>
+            <input type="text" placeholder="Ваш адрес электронной почты" required>
+            <button type="submit">Подписаться</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section> 
 
 
   <!-- STOP WRITE CODE -->
-  <footer>
-  
+  <footer class="footer">
+  <div class="footer__content">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="header__logo">
+          <a href="#">
+            design agency
+          </a>
+        </div>
+        <div class="footer__social-link">
+          <li>
+            <a class="link-behance" href="https://www.behance.net/">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 28">
+                <title></title>
+                <path
+                  d="M28.875 5.297h-7.984v1.937h7.984v-1.937zM24.938 11.953c-1.875 0-3.125 1.172-3.25 3.047h6.375c-0.172-1.891-1.156-3.047-3.125-3.047zM25.188 21.094c1.188 0 2.719-0.641 3.094-1.859h3.453c-1.062 3.266-3.266 4.797-6.672 4.797-4.5 0-7.297-3.047-7.297-7.484 0-4.281 2.953-7.547 7.297-7.547 4.469 0 6.937 3.516 6.937 7.734 0 0.25-0.016 0.5-0.031 0.734h-10.281c0 2.281 1.203 3.625 3.5 3.625zM4.328 20.312h4.625c1.766 0 3.203-0.625 3.203-2.609 0-2.016-1.203-2.812-3.109-2.812h-4.719v5.422zM4.328 11.922h4.391c1.547 0 2.641-0.672 2.641-2.344 0-1.813-1.406-2.25-2.969-2.25h-4.062v4.594zM0 3.969h9.281c3.375 0 6.297 0.953 6.297 4.875 0 1.984-0.922 3.266-2.688 4.109 2.422 0.688 3.594 2.516 3.594 4.984 0 4-3.359 5.719-6.937 5.719h-9.547v-19.688z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="link-dribbble" href="https://dribbble.com/">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28">
+                <title></title>
+                <path
+                  d="M16 23.438c-0.156-0.906-0.75-4.031-2.188-7.781-0.016 0-0.047 0.016-0.063 0.016 0 0-6.078 2.125-8.047 6.406-0.094-0.078-0.234-0.172-0.234-0.172 1.781 1.453 4.047 2.344 6.531 2.344 1.422 0 2.766-0.297 4-0.812zM13.109 13.953c-0.25-0.578-0.531-1.156-0.828-1.734-5.281 1.578-10.344 1.453-10.516 1.453-0.016 0.109-0.016 0.219-0.016 0.328 0 2.625 1 5.031 2.625 6.844v0c2.797-4.984 8.328-6.766 8.328-6.766 0.141-0.047 0.281-0.078 0.406-0.125zM11.438 10.641c-1.781-3.156-3.672-5.719-3.813-5.906-2.859 1.344-4.984 3.984-5.656 7.156 0.266 0 4.547 0.047 9.469-1.25zM22.125 15.625c-0.219-0.063-3.078-0.969-6.391-0.453 1.344 3.703 1.891 6.719 2 7.328 2.297-1.547 3.922-4.016 4.391-6.875zM9.547 4.047c-0.016 0-0.016 0-0.031 0.016 0 0 0.016-0.016 0.031-0.016zM18.766 6.312c-1.797-1.594-4.172-2.562-6.766-2.562-0.828 0-1.641 0.109-2.422 0.297 0.156 0.203 2.094 2.75 3.844 5.969 3.859-1.437 5.313-3.656 5.344-3.703zM22.25 13.891c-0.031-2.422-0.891-4.656-2.328-6.406-0.031 0.031-1.672 2.406-5.719 4.062 0.234 0.484 0.469 0.984 0.688 1.484 0.078 0.172 0.141 0.359 0.219 0.531 3.531-0.453 7.016 0.313 7.141 0.328zM24 14c0 6.625-5.375 12-12 12s-12-5.375-12-12 5.375-12 12-12 12 5.375 12 12z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="link-twitter" href="https://twitter.com/?lang=ru">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 28">
+                <title></title>
+                <path
+                  d="M25.312 6.375c-0.688 1-1.547 1.891-2.531 2.609 0.016 0.219 0.016 0.438 0.016 0.656 0 6.672-5.078 14.359-14.359 14.359-2.859 0-5.516-0.828-7.75-2.266 0.406 0.047 0.797 0.063 1.219 0.063 2.359 0 4.531-0.797 6.266-2.156-2.219-0.047-4.078-1.5-4.719-3.5 0.313 0.047 0.625 0.078 0.953 0.078 0.453 0 0.906-0.063 1.328-0.172-2.312-0.469-4.047-2.5-4.047-4.953v-0.063c0.672 0.375 1.453 0.609 2.281 0.641-1.359-0.906-2.25-2.453-2.25-4.203 0-0.938 0.25-1.797 0.688-2.547 2.484 3.062 6.219 5.063 10.406 5.281-0.078-0.375-0.125-0.766-0.125-1.156 0-2.781 2.25-5.047 5.047-5.047 1.453 0 2.766 0.609 3.687 1.594 1.141-0.219 2.234-0.641 3.203-1.219-0.375 1.172-1.172 2.156-2.219 2.781 1.016-0.109 2-0.391 2.906-0.781z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="link-github" href="https://github.com/">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28">
+                <title></title>
+                <path
+                  d="M12 2c6.625 0 12 5.375 12 12 0 5.297-3.437 9.797-8.203 11.391-0.609 0.109-0.828-0.266-0.828-0.578 0-0.391 0.016-1.687 0.016-3.297 0-1.125-0.375-1.844-0.812-2.219 2.672-0.297 5.484-1.313 5.484-5.922 0-1.313-0.469-2.375-1.234-3.219 0.125-0.313 0.531-1.531-0.125-3.187-1-0.313-3.297 1.234-3.297 1.234-0.953-0.266-1.984-0.406-3-0.406s-2.047 0.141-3 0.406c0 0-2.297-1.547-3.297-1.234-0.656 1.656-0.25 2.875-0.125 3.187-0.766 0.844-1.234 1.906-1.234 3.219 0 4.594 2.797 5.625 5.469 5.922-0.344 0.313-0.656 0.844-0.766 1.609-0.688 0.313-2.438 0.844-3.484-1-0.656-1.141-1.844-1.234-1.844-1.234-1.172-0.016-0.078 0.734-0.078 0.734 0.781 0.359 1.328 1.75 1.328 1.75 0.703 2.141 4.047 1.422 4.047 1.422 0 1 0.016 1.937 0.016 2.234 0 0.313-0.219 0.688-0.828 0.578-4.766-1.594-8.203-6.094-8.203-11.391 0-6.625 5.375-12 12-12zM4.547 19.234c0.031-0.063-0.016-0.141-0.109-0.187-0.094-0.031-0.172-0.016-0.203 0.031-0.031 0.063 0.016 0.141 0.109 0.187 0.078 0.047 0.172 0.031 0.203-0.031zM5.031 19.766c0.063-0.047 0.047-0.156-0.031-0.25-0.078-0.078-0.187-0.109-0.25-0.047-0.063 0.047-0.047 0.156 0.031 0.25 0.078 0.078 0.187 0.109 0.25 0.047zM5.5 20.469c0.078-0.063 0.078-0.187 0-0.297-0.063-0.109-0.187-0.156-0.266-0.094-0.078 0.047-0.078 0.172 0 0.281s0.203 0.156 0.266 0.109zM6.156 21.125c0.063-0.063 0.031-0.203-0.063-0.297-0.109-0.109-0.25-0.125-0.313-0.047-0.078 0.063-0.047 0.203 0.063 0.297 0.109 0.109 0.25 0.125 0.313 0.047zM7.047 21.516c0.031-0.094-0.063-0.203-0.203-0.25-0.125-0.031-0.266 0.016-0.297 0.109s0.063 0.203 0.203 0.234c0.125 0.047 0.266 0 0.297-0.094zM8.031 21.594c0-0.109-0.125-0.187-0.266-0.172-0.141 0-0.25 0.078-0.25 0.172 0 0.109 0.109 0.187 0.266 0.172 0.141 0 0.25-0.078 0.25-0.172zM8.937 21.438c-0.016-0.094-0.141-0.156-0.281-0.141-0.141 0.031-0.234 0.125-0.219 0.234 0.016 0.094 0.141 0.156 0.281 0.125s0.234-0.125 0.219-0.219z">
+                </path>
+              </svg>
+            </a>
+          </li>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="footer__contacts">
+        <div class="footer__contact footer__contact-info">
+          <div class="footer__contact-title">
+            Сделать звонок
+          </div>
+          <a class="footer__contact-phone" href="tel:+79587178543">
+            +79587178543
+          </a>
+        </div>
+        <div class="footer__contact footer__contact-email">
+          <div class="footer__contact-title">
+            designagency@gmail.com
+          </div>
+          <div class="footer__contact-text">
+            Связаться с нами
+          </div>
+        </div>
+        <div class="footer__contact footer__contact-adres">
+          <div class="footer__contact-title">
+            Сочи, Россия
+          </div>
+          <div class="footer__contact-text">
+            Расположение офиса
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__copy">
+    <div class="container">
+      <div class="footer__copy-text">
+        © 2020 Дизайн <a class="footer__link" href="#">@desigin agency</a>
+      </div>
+    </div>
+  </div>
 </footer>
   <script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
