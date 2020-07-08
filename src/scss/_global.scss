@@ -40,9 +40,8 @@ input:focus {
   outline: transparent;
 }
 body{
-  font-family: 'Montserrat', sans-serif;
+  @include f300;
   color: #fff;
-  font-weight: 300;
   font-size: 18px;
   line-height: 26px;
 }
