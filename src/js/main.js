@@ -1,5 +1,10 @@
 $(function(){
 
+  AOS.init({
+    delay: 300, 
+    duration: 1000
+  });
+
   let mySwiper = new Swiper ('.swiper-container', {
     slidesPerView: 3,
     spaceBetween: 35,
@@ -28,10 +33,13 @@ $(function(){
       },
     }
   })
+  
+  var burgerbtn = document.querySelector('.menu__btn');
 
-  $('.menu__btn').on('click', function(){
+  burgerbtn.addEventListener('click', function(){
+    burgerbtn.classList.toggle('open');
     $('.menu__list').slideToggle();
-  });
+  })
 
 });
 
@@ -62,11 +70,40 @@ $(function(){
     }
 
   });
+  
+  function scrollTo(element) {
+    window.scroll({
+      left: 0,
+      top: element.offsetTop,
+      behavior: 'smooth'
+    })
+  }
 
 
+  var solutions = document.querySelector('.solutions');
+  var features = document.querySelector('.features');
+  
+  var work = document.querySelector('.works');
+  var slider = document.querySelector('.work-slider');
 
+  var contact = document.querySelector('.contacts');
+  var footer = document.querySelector('.footer');
 
+  var btn = document.querySelector('.more__btn');
+  var news = document.querySelector('.newsletter');
 
+  solutions.addEventListener('click', () => {
+    scrollTo(features);
+  });
+  
+  work.addEventListener('click', () => {
+    scrollTo(slider);
+  });
 
+  contact.addEventListener('click', () => {
+    scrollTo(footer);
+  });
 
- 
+  btn.addEventListener('click', () => {
+    scrollTo(news);
+  });

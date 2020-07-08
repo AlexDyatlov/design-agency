@@ -1,2 +1,23 @@
 $bg: #1da7ff;
 $bg-color: #5b439c;
+$pink: #f93373;
+
+@mixin f300{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+@mixin f400{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+@mixin f500{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+@mixin f600{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
