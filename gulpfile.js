@@ -94,7 +94,7 @@ gulp.task("style", function () {
 			//указываем, где брать исходники
 			"node_modules/normalize.css/normalize.css",
 			"node_modules/swiper/css/swiper.css",
-			"node_modules/aos/dist/aos.css"
+			"node_modules/aos/dist/aos.css",
 		])
 		.pipe(sourcemaps.init())
 		.pipe(concat("libs.min.css")) //склеиваем их в один файл с указанным именем
@@ -112,8 +112,8 @@ gulp.task("script", function () {
 			"node_modules/jquery/dist/jquery.js",
 			"node_modules/swiper/js/swiper.min.js",
 			"src/js/libs.js",
-			"node_modules/aos/dist/aos.js"
-
+			"node_modules/aos/dist/aos.js",
+			"node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js",
 		])
 		.pipe(size())
 		.pipe(sourcemaps.init())
