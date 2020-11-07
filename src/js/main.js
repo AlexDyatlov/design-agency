@@ -32,7 +32,7 @@ $(function(){
         spaceBetween: 35,
       },
     }
-  })
+  });
   
   var burgerbtn = document.querySelector('.menu__btn');
 

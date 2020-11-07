@@ -4,21 +4,19 @@
 
 //start header
 .header{
- min-height: 750px;
- background-repeat: no-repeat;
- background-position: top center;
- background-size: cover;
- &::after{
-  content: '';
-  display: block;
-  width: 100%;
   min-height: 750px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: rgba(#563e99, .4);
-  z-index: 1;
- }
+  background: top center/cover no-repeat;
+  &::after{
+    content: '';
+    display: block;
+    width: 100%;
+    min-height: 750px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(#563e99, .4);
+    z-index: 1;
+  }
 }
 .header__top-inner{
   display: flex;
@@ -241,9 +239,7 @@
   &-img{
     min-height: 282px;
     display: block;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: center/cover no-repeat;
     position: relative;
     .img-btn{
       position:absolute;
