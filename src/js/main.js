@@ -2,7 +2,8 @@ $(function(){
 
   AOS.init({
     delay: 300, 
-    duration: 1000
+    duration: 1000,
+    once: true
   });
 
   let mySwiper = new Swiper ('.swiper-container', {

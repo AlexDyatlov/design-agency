@@ -211,31 +211,6 @@ gulp.task("font-eot", function () {
 		);
 });
 
-// gulp.task('favicons', function(){ //генератор favicon для всех устройств. Запускается вручную отдельной командой. Генерирует фавиконки на все случаи жизни и файл favicons.html, в котором находятся подключения этих иконок. Скопируйте подключения в файлы проекта и удалите favicons.html Больше нужно для веб-приложений, потому что их ярлыки выносят на главный экран. Сайтам же достаточно закинуть и подключить одну favicon.ico Короче, если вы не уверены, что большинство пользователей мобильных устройств запихнут ярлык вашего сайта на главный экран и разрешат push-уведомления в телефоне, ваша фамилия не Цукерберг и не Дуров - вам этот таск, скорее всего не нужен.
-//   return gulp.src('src/img/favicon/favicon.png')
-//   .pipe(favgen({
-//     appName: 'My App',
-//     appShortName: 'App',
-//     appDescription: 'This is my application',
-//     developerName: 'Hayden Bleasel',
-//     developerURL: 'http://haydenbleasel.com/',
-//     background: '#020307',
-//     path: 'favicons/',
-//     url: 'http://haydenbleasel.com/',
-//     display: 'standalone',
-//     orientation: 'portrait',
-//     scope: '/',
-//     start_url: '/?homescreen=1',
-//     version: 1.0,
-//     logging: false,
-//     html: 'favicons.html',
-//     pipeHTML: true,
-//     replace: true,
-//   })
-//   )
-//   .pipe(gulp.dest('src/'))
-// });
-
 gulp.task("images", function () {
 	//пережимаем изображения и складываем их в директорию build
 	return gulp
