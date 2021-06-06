@@ -1,30 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/libs.min.css">
-    <link rel="stylesheet" href="css/style.min.css">
-    <title>Design agency</title>
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Design agency</title>
+</head>
 
 <body>
   <header class="header" style="background-image: url(img/header-bg.jpg);">
   <div class="container">
     <div class="header__top-inner">
-      <div class="header__logo">
-        <a href="#">
+      <a class="header__logo">
           design agency
-        </a>
-      </div>
+      </a>
       <nav class="menu">
-        <div class="menu__btn">
-          <div class="line-menu half start"></div>
-          <div class="line-menu"></div>
-          <div class="line-menu half end"></div>
-        </div>
+        <button class="menu__btn">
+          <span class="line-menu half start"></span>
+          <span class="line-menu"></span>
+          <span class="line-menu half end"></span>
+        </button>
         <ul class="menu__list">
           <li class="menu__list-item">
             <a class="menu__list-link" href="#solutions">
@@ -53,18 +51,17 @@
       <h1 class="header__title" data-aos="fade-up" data-aos-duration>
         Брендинг и UX/UI дизайн агентство
       </h1>
-      <div class="header__text">
+      <p class="header__text">
         Мы предлагаем самые современные решения, которые делают вас заметными!
-      </div>
+      </p>
     </div>
   </div>
 </header>
-  <!-- WRITE CODE HERE -->
   <section id="solutions" class="features">
     <div class="container">
-      <div class="features__title title" data-aos="zoom-in" data-aos-delay data-aos-duration>
+      <h2 class="features__title title" data-aos="zoom-in" data-aos-delay data-aos-duration>
         Наши особенности
-      </div>
+      </h2>
       <div class="features__items">
         <div class="features__item" data-aos="fade-right" data-aos-delay data-aos-duration>
           <div class="features__item-img">
@@ -150,9 +147,9 @@
   </section>
   <section id="works" class="work-slider">
     <div class="container">
-      <div class="work__title title" data-aos="zoom-in-up" data-aos-delay data-aos-duration>
+      <h2 class="work__title title" data-aos="zoom-in-up" data-aos-delay data-aos-duration>
         Последние работы 
-      </div>
+      </h2>
       <div class="swiper-buttons">
         <button class="swiper-button-prev"></button>
         <button class="swiper-button-next"></button>
@@ -269,14 +266,14 @@
   </section>
   <section class="clients">
     <div class="container">
-      <div class="clients__title title" data-aos="zoom-in-down" data-aos-delay data-aos-duration=>
+      <h2 class="clients__title title" data-aos="zoom-in-down" data-aos-delay data-aos-duration>
         Наши ценные клиенты
-      </div>
+      </h2>
       <div class="clients__items">
-        <div class="clients__items-img" data-aos="flip-left" data-aos-delay="" data-aos-duration="950">
+        <div class="clients__items-img" data-aos="flip-left" data-aos-delay data-aos-duration="950">
           <img src="img/content/upside.png" alt="">
         </div>
-        <div class="clients__items-img" data-aos="flip-left" data-aos-delay="" data-aos-duration="1050">
+        <div class="clients__items-img" data-aos="flip-left" data-aos-delay data-aos-duration="1050">
           <img src="img/content/arrow.png" alt="">
         </div>
         <div class="clients__items-img" data-aos="flip-up" data-aos-delay="450" data-aos-duration="1150">
@@ -294,9 +291,9 @@
  <section id="newsletter" class="newsletter">
     <div class="container">
       <div class="newsletter__inner">
-        <div class="newsletter__inner-title">
+        <p class="newsletter__inner-title">
           Хотите получать еженедельную рассылку на свой почтовый ящик?
-        </div>
+        </p>
         <div class="newsletter__inner-form">
           <form>
             <input type="email" placeholder="Ваш адрес электронной почты" required>
@@ -306,19 +303,14 @@
       </div>
     </div>
   </section> 
-
-
-  <!-- STOP WRITE CODE -->
   <footer id="contacts" class="footer">
   <div class="footer__content">
     <div class="container">
       <div class="footer__inner">
-        <div class="header__logo">
-          <a href="#">
-            design agency
-          </a>
-        </div>
-        <div class="footer__social-link">
+        <a class="header__logo">
+          design agency
+        </a>
+        <ul class="footer__social-link">
           <li>
             <a class="link-behance" href="https://www.behance.net/">
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 28">
@@ -359,7 +351,7 @@
               </svg>
             </a>
           </li>
-        </div>
+        </ul>
       </div>
       <div class="footer-line"></div>
       <div class="footer__contacts">
